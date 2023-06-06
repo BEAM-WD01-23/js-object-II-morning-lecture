@@ -58,7 +58,9 @@ class Cars {
 }
 //iii
 //a, instantiate the object and b, call the method
-let car1 = new Cars('Bugatti', '2,200,000€', 2021);
+let car1 = new Cars('Bugatti', '2,200,000€', 2021);//editing price from the object
+const valueOfBugatti = car1.price = '1,500,000€';
+console.log(car1);
 //console.log(car1);//Cars { model: 'Bugatti', price: '2,200,000€', maturity: 2021 }
 //call/get the method 
 //console.log(car1.showMaturity());//The current age of my Bougathi that costs 2,200,000€ is 2
@@ -68,7 +70,7 @@ let car1 = new Cars('Bugatti', '2,200,000€', 2021);
 //
 //creating another method inside Cars
 let car2 = new Cars('Toyota', '10,000€', 2010);
-//console.log(car2.calculateNumbers(3,6));//we ll get 9
+console.log(car2.calculateNumbers(3,6));//we ll get 9
 
 
 let currentHour =  new Date().getHours();
@@ -99,3 +101,4 @@ const books = {
 let showInfo = Object.entries(books);
 //console.log(showInfo);//show result inside an array
 console.log(showInfo.toString());//string result
+
