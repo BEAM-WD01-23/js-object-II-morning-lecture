@@ -58,7 +58,7 @@ class Cars {
 }
 //iii
 //a, instantiate the object and b, call the method
-let car1 = new Cars('Bougathi', '2,200,000€', 2021);
+let car1 = new Cars('Bugatti', '2,200,000€', 2021);
 //console.log(car1);//Cars { model: 'Bugatti', price: '2,200,000€', maturity: 2021 }
 //call/get the method 
 //console.log(car1.showMaturity());//The current age of my Bougathi that costs 2,200,000€ is 2
@@ -99,4 +99,3 @@ const books = {
 let showInfo = Object.entries(books);
 //console.log(showInfo);//show result inside an array
 console.log(showInfo.toString());//string result
-
